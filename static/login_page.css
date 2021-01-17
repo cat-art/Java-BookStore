@@ -1,0 +1,77 @@
+/*清除默认样式*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url("../img/login_bg.png") repeat-x;
+    /* background-size: cover;*/
+}
+
+/*第一个logo*/
+#logo{
+    margin-top: 13px;
+    margin-left: 108px;
+}
+
+#header{
+    position: absolute;
+    top: 20px;
+    left: 240px;
+    color: #666;
+    font-size:50px;
+}
+
+.login_header1 {
+    font-size: 52px;
+    color:azure;
+    position: absolute;  /*带有绝对定位的标题*/
+    top: 40%;
+    left: 25%;
+    font-family: 华文宋体;
+}
+
+.content {
+    width:300px;
+    height: 250px;
+    position: absolute;
+    top:35%;
+    left:70%;
+    background:white;
+    padding: 10px 25px 10px 20px ;
+}
+
+.form input[type="submit"]    /*设置登录的那个按钮*/
+{
+    background: transparent;
+    border: none;
+    outline: none;
+    color:white;
+    background:rgba(48,141,123,1);
+    padding: 10px 120px;
+}
+
+.itxt {
+    font-size: 15px;
+    font-family: #666;
+}
+.regist {
+    position: absolute;
+    top:11%;
+    left:70%;
+    font-size:15px;
+   /* color: red;*/
+    font-family: 华文宋体;
+    text-decoration: none;
+    color: red;
+    /*去除下划线*/
+}
+
+.last {
+    position: absolute;
+    top: 80%;
+    left: 36%;
+    color: black;
+    font-size: 20px;
+}

@@ -1,0 +1,160 @@
+/*清除默认样式*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.body {
+    /*设置内边距*/
+}
+
+/*设置导航条*/
+.nav {
+    float: right;
+}
+.nav li {
+    float:left;
+    /*去除·点*/
+    list-style-type:none;
+}
+
+.nav a {
+    color: #666;
+    font-size: 20px;
+    /*去除下划线*/
+    text-decoration: none;
+    padding: 10px;
+}
+
+/*设置鼠标移入的效果*/
+.nav a:hover{
+    background-color: #FF4400;
+}
+
+
+/*设计logo*/
+.index_logo {
+   /* display: inline-block;*/
+    margin-top: 13px;
+    margin-left: 108px;
+}
+
+
+#index_header {
+    position: absolute;
+    top: 20px;
+    left: 240px;
+    color: #666;
+    font-size:50px;
+}
+
+
+.form_index {
+    position:absolute;
+    top:18%;
+    left: 15%;
+
+    width:1200px;
+    height:600px;
+    background-color: white;
+    /*设置边框*/
+    border-width: 10px;
+    border-color: green;
+    border-style: solid;
+    border-left: 30px green solid;
+    border-right: 30px green solid;
+    /*padding: 200px 100px;*/
+
+    text-align: center;
+}
+
+.table_index1 {
+    position:absolute;
+    top: 17%;
+    left: 10%;
+    float:right;
+    width: 200px;
+    height:320px;
+    border-width: 3px;
+    border-color: #666;
+    border-style: solid;
+    border-collapse: separate;
+
+}
+.table_index4 {
+    position:absolute;
+    top: 17%;
+    left: 30%;
+    float:right;
+    width: 200px;
+    height:320px;
+    border-width: 3px;
+    border-color: #666;
+    border-style: solid;
+    border-collapse: separate;
+
+}
+.table_index2 {
+    position:absolute;
+    top: 17%;
+    left: 50%;
+    float:right;
+    width: 200px;
+    height:320px;
+    border-width: 3px;
+    border-color: #666;
+    border-style: solid;
+    border-collapse: separate;
+
+}
+.table_index3 {
+    position:absolute;
+    top: 17%;
+    left: 70%;
+    float:right;
+    width: 200px;
+    height:320px;
+    border-width: 3px;
+    border-color: #666;
+    border-style: solid;
+    border-collapse: separate;
+
+}
+/*写盒子顶上的文字*/
+.top_content {
+    font-size: 20px;
+}
+
+.top_content input {
+    width: 70px;
+    height: 20px;
+}
+
+.top_content input[type="submit"] {
+    height: 30px;
+}
+
+/*写index分页的代码*/
+#page_nav {
+    font-size: 20px;
+  margin-top: 425px;
+}
+
+#page_nav input {
+    width: 70px;
+    height: 20px;
+    font-size: 20px;
+}
+/*设置那个按钮*/
+#page_nav input[type="button"]{
+    height: 30px;
+}
+
+.last {
+    position:absolute;
+    top: 85%;
+    left: 40%;
+    color: #66555b;
+
+    font-weight: bold;
+    font-size: 15px;
+}

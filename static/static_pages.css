@@ -1,0 +1,107 @@
+/*清除默认样式*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.body {
+    /*设置内边距*/
+}
+
+/*设置导航条*/
+.nav {
+    float: right;
+}
+.nav li {
+    display: block;
+
+    float:left;
+    /*去除·点*/
+    list-style-type:none;
+}
+
+.nav a {
+    color: #666;
+    font-size: 20px;
+    /*去除下划线*/
+    text-decoration: none;
+    padding: 10px;
+}
+
+/*设置鼠标移入的效果*/
+.nav a:hover{
+    background-color: #FF4400;
+}
+
+/*设计第一个logo*/
+.index_logo {
+    margin-top: 13px;
+    margin-left: 108px;
+}
+
+
+#index_header {
+    position: absolute;
+    top: 20px;
+    left: 240px;
+    color: #666;
+    font-size:50px;
+}
+
+.box {
+    width: 1200px;
+    height: 600px;
+
+    margin: auto;
+    margin-top: 60px;
+
+    border-width: 10px;
+    border-color: green;
+    border-style: solid;
+    border-left: 30px green solid;
+    border-right: 30px green solid;
+}
+
+/*写static分页的代码*/
+#page_nav {
+    font-size: 20px;
+    position: absolute;
+    top: 680px;
+    left: 580px;
+  /*  margin-top: 200px;
+    margin-left: 270px;*/
+}
+
+#page_nav input {
+    width: 70px;
+    height: 20px;
+    font-size: 20px;
+}
+/*设置那个按钮*/
+#page_nav input[type="button"]{
+    height: 30px;
+}
+
+.table {
+    /*表格居中*/
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 1000px;
+    border: 1px solid green;
+
+    border-left: 0px;
+    border-right:0px;
+    cellspacing:0px;
+}
+/*,表示并集*/
+table,tr {
+    width: 1000px;
+}
+th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-left: 0px;
+    border-right:0px;
+    border-bottom: 1px;
+    cellspacing:0px;
+}
